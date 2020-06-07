@@ -108,8 +108,6 @@ const CreatePoint = () => {
         } else {
             setSelectedItems([ ...selectedItems, id]);
         }
-
-        setSelectedItems([ ...selectedItems, id ]);
     }
     async function handleSubmit(event: FormEvent) {
         event.preventDefault();
