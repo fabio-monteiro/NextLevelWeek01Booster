@@ -18,7 +18,7 @@ class PointsController {
             .distinct()
             .select('points.*');
         
-        const serializedPoints = items.map(points => {
+        const serializedPoints = points.map(points => {
             return {
                 ...points,
                 image_url: `http://192.168.43.131:3333/uploads/${points.image}`,
