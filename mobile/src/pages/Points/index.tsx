@@ -95,8 +95,6 @@ const Points = () => {
       } else {
           setSelectedItems([ ...selectedItems, id]);
       }
-
-      setSelectedItems([ ...selectedItems, id ]);
     }
 
     return (
